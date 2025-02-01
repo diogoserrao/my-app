@@ -1,5 +1,7 @@
 import Botao from "../components/botao";
 import imagem1 from "../public/imagem1.webp";
+import imagem2 from "../public/imagem2.webp";
+import imagem3 from "../public/imagem3.webp";
 import Image from "next/image";
 
 export default function Page() {
@@ -41,7 +43,9 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-              <div className="image2"> </div>
+              <div>
+                <Image src={imagem2} alt="imagem2" className="image2" />
+              </div>
             </div>
           </div>
           <div className="botoes">
@@ -51,7 +55,9 @@ export default function Page() {
             </Botao>
           </div>
           <div className="Ccontent1">
-            <div className="image2"> </div>
+            <div>
+              <Image src={imagem3} alt="imagem3" className="image2" />
+            </div>
             <div className="t1">
               <p>
                 <strong>A nossa casa nas colinas</strong>
