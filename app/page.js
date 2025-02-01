@@ -2,6 +2,7 @@ import Botao from "../components/botao";
 import imagem1 from "../public/imagem1.webp";
 import imagem2 from "../public/imagem2.webp";
 import imagem3 from "../public/imagem3.webp";
+import imagem4 from "../public/imagem4.webp";
 import Image from "next/image";
 
 export default function Page() {
@@ -76,7 +77,33 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <Botao href="/bolodocaco"> Bolo do Caco</Botao>
+          <div className="Ccontent1">
+            <div className="t1">
+              <p>
+                <strong>Uma Cozinha Tradicional</strong>{" "}
+              </p>
+              <div>
+                No coração da nossa casa está a cozinha tradicional, onde o pão
+                ganha vida. Com um forno a lenha, é lá que a nossa mãe passa
+                grande parte do tempo a cozinhar e onde partilhamos a arte de
+                fazer o delicioso Bolo do Caco.
+              </div>
+              <div>
+                Depois de cozinhar, reunimo-nos no pátio para desfrutar do que
+                fizemos juntos. Rodeados pela calma e pela natureza das colinas,
+                é um momento para saborear a união, o sabor e a tradição.
+              </div>
+            </div>
+            <div>
+              <Image src={imagem4} alt="imagem4" className="image2" />
+            </div>
+          </div>
+          <div className="botoes">
+            <Botao href="/bolodocaco"> Aprenda a Fazer Bolo do Caco</Botao>
+            <Botao pintado href="/reserva">
+              Fazer reserva
+            </Botao>
+          </div>
         </div>
       </div>
     </div>

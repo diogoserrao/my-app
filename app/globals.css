@@ -120,3 +120,16 @@ border-radius: 15px;
   background-color: mediumblue;
   color: white;
 }
+
+.links{
+  display: flex;
+  gap: 20px;
+  color: lightblue;
+}
+
+.ootercontent{
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
