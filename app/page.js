@@ -11,7 +11,7 @@ export default function Page() {
       <div className="flex justify-center w-full align-center">
         <div className="corpocontent">
           <h1 className="titulo">
-            "Vamos à casa da Nati provar o que está a cozinhar"
+            Vamos à casa da Nati provar o que está a cozinhar
           </h1>
           <div className="container">
             <div className="Ccontent1">
