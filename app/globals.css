@@ -21,11 +21,37 @@ body {
   justify-content: space-between;
   width: 100%;
 }
+@media (max-width: 768px){
+  .menucontent{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.abrirmenu{
+  display: none;
+}
+
 .menudireita{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   gap: 10px;
+}
+
+@media (max-width: 768px){
+  .abrirmenu{
+    display: block;
+  }
+
+  .menudireita{
+    flex-direction: column;
+    align-items: end;
+    
+  }
+  
+  .close{
+    display: none;
+  }
 }
 
 .corpo{
@@ -72,6 +98,13 @@ body {
   gap: 50px;
 }
 
+@media (max-width: 768px){
+  .Ccontent1{
+    flex-direction: column;
+    padding-inline: 20px;
+  }
+}
+
 .t1{
   display: flex;
   flex-direction: column;
@@ -100,12 +133,21 @@ body {
   justify-content: center;
   gap: 20px;
   padding: 60px;
-  
+  align-items: center; 
+}
+
+@media (max-width: 768px){
+  .botoes{
+    flex-direction: column;
+    
+  }
 }
 .botao{
-  padding: 0 10px;
-border-radius: 15px;
+  padding: 4px 10px;
+  border-radius: 15px;
+  text-align: center;
 }
+
 .botaopintado{
   background-color: lightblue;
 }
@@ -126,10 +168,19 @@ border-radius: 15px;
   gap: 20px;
   color: lightblue;
 }
+@media (max-width: 768px){
+  .links{
+    flex-direction: column;
+    
+  }
+}
 
-.ootercontent{
+.footercontent{
   max-width: 1024px;
   display: flex;
   flex-direction: column;
   width: 100%;
+  gap: 20px;
+  padding-inline: 20px;
 }
+
